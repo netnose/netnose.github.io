@@ -1,0 +1,18 @@
+html { height: 100%; }
+html, body { margin: 0; padding: 0; background-color: #ddd; font-family: "Fauna One", Helvetica, "Trebuchet MS", sans-serif; }
+#card { position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; padding: 10px; width: 480px; height: 80px; background-color: #fff; z-index: 200; opacity: .95; }
+.avatar { float: left; }
+.title { margin-left: 100px; font-size: 2em; }
+.subtitle { margin-left: 100px; color: #555; }
+.social { margin-top: 3px; text-align: right; }
+.social > a { text-decoration: none; }
+.social > a > svg { width: 20px; height: 20px; }
+
+#ca { position: absolute; top: 0; left: 0; margin: 0; padding: 0; opacity: .5; z-index: 100; }
+#ca > div { margin: 0; padding: 0; }
+#ca > div > div { float: left; margin: 2px; padding: 0; width: 20px; height: 20px; }
+#ca > div > div.black { background-color: #000; }
+
+@media all and (max-width: 480px) {
+  #card { width: 240px; height: 140px; }
+}
